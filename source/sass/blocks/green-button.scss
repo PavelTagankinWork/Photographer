@@ -1,0 +1,10 @@
+.green-button {
+  background-color: $green;
+  border: 0;
+  border-radius: 6px;
+}
+
+.green-button:hover {
+  background-color: darken($green, 10%);
+  transition-duration: 0.3s;
+}

@@ -1,0 +1,24 @@
+.store-item {
+  width: 379px;
+  height: 438px;
+  background-color: $white;
+  border-radius: 0px 0px 16px 16px;
+  text-align: left;
+}
+
+.store-item__title {
+  @include fontTitle;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.store-item__depiciton {
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 280px;
+  margin: 0;
+  margin-left: 30px;
+}

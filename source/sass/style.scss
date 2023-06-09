@@ -1,0 +1,24 @@
+@import "variables";
+@import "utils";
+@import "mixins";
+@import "base";
+
+//components
+
+@import "components/interview.scss";
+@import "components/services.scss";
+@import "components/service-item.scss";
+@import "components/preset-store.scss";
+@import "components/store-item.scss";
+@import "components/contacts.scss";
+@import "components/footer-lists.scss";
+@import "components/footer-pages.scss";
+@import "components/footer-block.scss";
+@import "components/footer-newspapers.scss";
+
+//blocks 
+
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/green-button.scss";
+@import "blocks/main-footer.scss";

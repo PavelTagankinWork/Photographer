@@ -1,0 +1,28 @@
+.footer-pages {
+  width: 100%;
+  max-width: 185px;
+}
+
+.footer-pages__title {
+  text-transform: uppercase;
+  color: rgba(184, 125, 88, 1);
+}
+
+.footer-pages__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-pages__item {
+  margin-bottom: 9px;
+}
+
+.footer-pages__item:hover {
+  color: #b87d58;
+  transition-duration: 0.3s;
+}
+
+.footer-pages__item:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,68 @@
+.preset-store {
+  text-align: center;
+  padding-top: 134px;
+  padding-bottom: 99px;
+  padding-left: 136px;
+  padding-right: 136px;
+  background-color: #F4F3F0;
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(219, 52, 59, 0.296) 0%, rgba(219, 52, 59, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: 800px 537px;
+}
+
+.preset-store__title {
+  @include fontTitle;
+  position: relative;
+  color: rgba(219, 52, 59, 1);
+  margin: 0;
+}
+
+.preset-store__title::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../../img/stripe.svg");
+  background-repeat: no-repeat;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 19px;
+}
+
+.preset-store__description {
+  max-width: 591px;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 47px;
+}
+
+.preset-store__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.preset-store__button {
+  margin-top: 30px;
+  position: relative;
+  @include fontMain;
+  background-color: transparent;
+  border: 0;
+}
+
+.preset-store__button::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../../img/arrow.svg");
+  background-repeat: no-repeat;
+  top: 12px;
+  left: 100px;
+  width: 19px;
+  height: 10px;
+}
