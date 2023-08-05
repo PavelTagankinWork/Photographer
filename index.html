@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photographer</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="favicon-32.ico">
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- <link rel="preload" href="fonts/ptsans.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/ptsansbold.woff2" type="font/woff2" as="font" crossorigin="anonymous"> -->
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__wrapper wrapper">
+            <a class="main-header__logo">
+                <img src="img/main-logo.svg" width="113" height="30" alt="logo">
+            </a>
+            <nav class="main-header__nav main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a>Presets</a></li>
+                    <li class="main-nav__item"><a>Prints</a></li>
+                    <li class="main-nav__item"><a>Store</a></li>
+                    <li class="main-nav__item"><a>About</a></li>
+                    <li class="main-nav__item"><a>Contact</a></li>
+                </ul>
+                <button class="main-nav__button green-button">Cart</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <h1 class="visually-hidden">Photographer page</h1>
+        <div class="main-wrapper wrapper">
+            <article class="interview">
+                <div class="interview-text">
+                    <h2 class="interview-text__title">Hi, I'm James Mirro &<br>I'm a photographer.</h2>
+                    <p class="interview-text__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh 
+                                                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    <button class="interview-text__button green-button" type="button">Read more</button>
+                </div>
+                <picture>
+                    <img class="interview__photo" src="img/photographer.png" srcset="img/photographer-2x.png 2x">
+                </picture>
+            </article>
+            <article class="services">
+                <h2 class="services__title">Services</h2>
+                <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                <ul class="services__list">
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Wedding Photography</h3>
+                        <p class="service-item__depiction">Wedding photography is often called the bread and butter of photographers — but that doesn't mean it has to be boring. Quite the opposite!</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Sports Photography</h3>
+                        <p class="service-item__depiction">Sports photography is awesome. Sitting on the sidelines with a massive telephoto allows me to get right into the action — I love shooting sports where there's a lot of explosive movement.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Portrait Photography</h3>
+                        <p class="service-item__depiction">Who doesn't love portrait photography? I love being able to capture that expression, quirk, smile or whatever, that sort of defines a person.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Architecture Photography</h3>
+                        <p class="service-item__depiction">The nice thing about shooting architecture (in my opinion) is that it's so easy to do. Seriously, just pick up your camera and get out there.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Animal Photography</h3>
+                        <p class="service-item__depiction">Whenever I'm travelling I always make sure to pack gear that allows me to capture the local wildlife. The eagle that takes flight in this picture is probably my most prized image.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Food Photography</h3>
+                        <p class="service-item__depiction">I do food photography for blogs, restaurants, influencers, YouTube channels — but most importantly (if I manage to cook something that looks good) — I do food photography for myself.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                    <li class="services__item service-item">
+                        <h3 class="service-item__title">Nature Photography</h3>
+                        <p class="service-item__depiction">Landscape photography just never gets old. Someone told me that those are the kinds of pictures you never look. Well, I don't agree.</p>
+                        <a href="" class="service-item__link">Read more</a>
+                    </li>
+                </ul>
+            </article>
+            <section class="preset-store">
+                <h2 class="preset-store__title">Preset store</h2>
+                <p class="preset-store__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                <ul class="preset-store__list">
+                    <li class="preset-store__item store-item">
+                        <picture>
+                            <img class="store-item__img" src="img/vol1.jpg" srcset="img/vol1-2x.jpg 2x">
+                        </picture>
+                        <h2 class="store-item__title">Mirro Preset Pack Vol. 01</h2>
+                        <p class="store-item__depiciton">The first volume is my go-to presets when shooting action sports. Just the right amount of contrast and highlights to make your photo (literally) pop!</p>
+                    </li>
+                    <li class="preset-store__item store-item">
+                        <picture>
+                            <img class="store-item__img" src="img/vol2.jpg" srcset="img/vol2-2x.jpg 2x">
+                        </picture>
+                        <h2 class="store-item__title">Mirro Preset Pack Vol. 02</h2>
+                        <p class="store-item__depiciton">Vol. 02 is dedicated solely to landscape photography. Pay attention to your exposure while out there and these presets will make your photos look great.</p>
+                    </li>
+                    <li class="preset-store__item store-item">
+                        <picture>
+                            <img class="store-item__img" src="img/vol3.jpg" srcset="img/vol3-2x.jpg 2x">
+                        </picture>
+                        <h2 class="store-item__title">Mirro Preset Pack Vol. 03</h2>
+                        <p class="store-item__depiciton">These are a collection of my most used wedding presets — use with caution as you'll end up loving wedding photography.</p>
+                    </li>
+                </ul>
+                <button class="preset-store__button">Preset store</button>
+            </section>
+            <section class="contacts">
+                <div class="contact">
+                    <p class="contact__depiciton">Wan't to work together? Follow the link and let's get in touch.</p>
+                    <button class="contact__button green-button">Contacts</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <img src="img/main-logo-white.svg" alt="logo" class="footer__logo">
+        <div class="footer-block">
+            <div class="footer-lists">
+                <div class="footer-pages">
+                    <h3 class="footer-pages__title">Pages</h3>
+                    <ul class="footer-pages__list footer-list">
+                        <li class="footer-pages__item"><a>Home</a></li>
+                        <li class="footer-pages__item"><a>Store</a></li>
+                        <li class="footer-pages__item"><a>About</a></li>
+                        <li class="footer-pages__item"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-pages">
+                    <h3 class="footer-pages__title">Preset packs</h3>
+                    <ul class="footer-pages__list footer-list">
+                        <li class="footer-pages__item"><a>Mirro Preset Pack Vol. 01</a></li>
+                        <li class="footer-pages__item"><a>Mirro Preset Pack Vol. 02</a></li>
+                        <li class="footer-pages__item"><a>Mirro Preset Pack Vol. 03</a></li>
+                        <li class="footer-pages__item"><a>Mirro Preset Pack Vol. 04</a></li>
+                    </ul>
+                </div>
+                <div class="footer-pages">
+                    <h3 class="footer-pages__title">Utility pages</h3>
+                    <ul class="footer-pages__list footer-list">
+                        <li class="footer-pages__item"><a>Instructions</a></li>
+                        <li class="footer-pages__item"><a>Style guide</a></li>
+                        <li class="footer-pages__item"><a>Licenses</a></li>
+                        <li class="footer-pages__item"><a>Changelog</a></li>
+                        <li class="footer-pages__item"><a>404</a></li>
+                    </ul>
+                </div>
+                <div class="footer-pages">
+                    <h3 class="footer-pages__title">Store categories</h3>
+                    <ul class="footer-pages__list footer-list">
+                        <li class="footer-pages__item"><a>Presets</a></li>
+                        <li class="footer-pages__item"><a>Prints</a></li>
+                    </ul>
+                </div>
+                <div class="footer-pages">
+                    <h3 class="footer-pages__title">Business areas</h3>
+                    <ul class="footer-pages__list footer-list">
+                        <li class="footer-pages__item"><a>Wedding Photography</a></li>
+                        <li class="footer-pages__item"><a>Sports Photography</a></li>
+                        <li class="footer-pages__item"><a>Portrait Photography</a></li>
+                        <li class="footer-pages__item"><a>Architecture Photography</a></li>
+                        <li class="footer-pages__item"><a>Animal Photography</a></li>
+                        <li class="footer-pages__item"><a>Food Photography</a></li>
+                        <li class="footer-pages__item"><a>Nature Photography</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-newspapers">
+                <h3 class="footer-newspapers__title">Newsletter</h3>
+                <p class="footer-newspapers__depiction">Subscribe to my newsletter where I share news about upcoming printings and preset sales.</p>
+                    <input type="email" class="footer-newspapers__input" placeholder="Email address">
+            </div>
+          </div>
+        <span class="footer__copyrights">© Mirro Photography, LLC. All rights reserved. Powered by   Webflow.</span>
+    </footer>
+</body>
+</html>
